@@ -17,15 +17,25 @@ function App() {
  
   // HTML rendered here
   return (
-    <div className="container-fluid">
-        <h1>Hello World</h1>
-        <p>
-          This is the frontpage of your app.
-        </p>
-        <p>
-          New here? <a href="/signup">Click here to sign up!</a> Returning users can <a href="/login">login here!</a>
-        </p>
-    </div>
+   <div className="container-fluid background">
+       <h1>Scholar Seeker</h1>
+       <p>
+         Scholarships at your fingertips
+       </p>
+       
+   
+   <div id="Login">
+   
+ </div>
+
+ <div class="d-grid gap-4 col-5 mx-auto">
+  
+  <a href="/login" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Login</a>
+  <a href="/signup" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Signup</a>
+</div>
+
+</div>
+
   );
 }
  

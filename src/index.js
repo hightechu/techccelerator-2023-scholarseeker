@@ -14,7 +14,7 @@ import Navigation from "./components/Navigation";
 import About from "./components/About";
 import App from './App';
 import AddDataSample from './components/AddDataSample';
-
+import ScholarshipPage from './components/ScholarshipPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // Add routes after line 30
 root.render(
@@ -28,6 +28,7 @@ root.render(
             <Route path='/signup' element={<Signup/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/adddatasample' element={<AddDataSample/>}/>
+            <Route path= '/scholarshippage' element={<ScholarshipPage/>}/>
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,

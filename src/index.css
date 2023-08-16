@@ -19,3 +19,11 @@ code {
 .custom-class {
   color: red;
 }
+
+.background { 
+background-image: linear-gradient(#f53b69, #f4b942); 
+height: 100vh;
+}
+ .grad1 {
+  background-color: magenta;
+ }
