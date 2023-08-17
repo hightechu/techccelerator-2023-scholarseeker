@@ -8,6 +8,8 @@ body {
 }
 .container-fluid {
   padding: 1.5rem;
+  background-image: linear-gradient(#f53b69, #f4b942);
+  min-height: 100vh;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -20,10 +22,13 @@ code {
   color: red;
 }
 
-.background { 
-background-image: linear-gradient(#f53b69, #f4b942); 
-height: 100vh;
-}
  .grad1 {
-  background-color: magenta;
+  background-image: linear-gradient(180deg,#f4b942,#f53b69) !important;
+ }
+
+ .sub {
+  color: white;
+ }
+ .font {
+  font-family: helvetica
  }
