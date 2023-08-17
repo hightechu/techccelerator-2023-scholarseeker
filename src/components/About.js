@@ -3,11 +3,12 @@ import React from 'react';
  const About = () => {
 
   return (
-    <div className="container-fluid">        
-       <h1>About</h1>
+    <div className="container-fluid grad1">  
+
+       <h1>Create A Scholarship</h1>
         <p>
           About your project.
-        </p>
+        </p> 
     </div>
   )
 
