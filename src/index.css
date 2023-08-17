@@ -40,4 +40,8 @@ input {
  .yellow {
 color:#f4b942;
  }
+.mylogo {
+  max-width: 15%;
+  height: auto;
+}
 
