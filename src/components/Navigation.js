@@ -7,10 +7,9 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav>
-                    <NavLink  eventKey="1" as={Link} to="/">Welcome To Delulu Land
-                </NavLink>
-                    <NavLink  eventKey="3" as={Link} to="/practice">Practice</NavLink>
-                    <NavLink  eventKey="3" as={Link} to="/anotherpage">Anotherpage</NavLink>
+                    <NavLink  eventKey="1" as={Link} to="/">My Awesome App</NavLink>
+                    <NavLink  eventKey="2" as={Link} to="/about">About</NavLink>
+                    <NavLink  eventKey="3" as={Link} to="/scholarshippage">Scholarship</NavLink>
                 </Nav>
             </Navbar.Collapse>     
         </Navbar>

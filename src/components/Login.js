@@ -19,12 +19,35 @@ const Login = () => {
   };
   return (              
     <>
-    <div className="container-fluid">
-     <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">LOGIN</button>
-  
-     </div>
-     </div>
+      <div className="container-fluid">
+       
+              <h1>Login</h1>
+              {error ? <div>{error}</div> : null}
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  name="email"
+                  value={email}
+                  placeholder="Email"
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+                <input
+                  type="password"
+                  name="password"
+                  value={password}
+                  placeholder="Password"
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                <input type="submit" value="LOGIN" />
+              </form>
+              <br>
+              </br>
+              <p>
+                Don't have an account? <a href="/signup">Sign up here!</a>
+              </p>
+        
+      </div>
+      
     </>
   );
 };

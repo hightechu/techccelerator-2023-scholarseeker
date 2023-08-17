@@ -8,14 +8,36 @@ body {
 }
 .container-fluid {
   padding: 1.5rem;
+  background-image: linear-gradient(#f53b69, #f4b942);
+  min-height: 100vh;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+input {
+  display: block;
+  margin-top: 25px;
+}
 /* DEVELOPERS ADD CUSTOM CSS BELOW */
 
 .custom-class {
   color: pink;
 }
+
+ .grad1 {
+  background-image: linear-gradient(180deg,#f4b942,#f53b69) !important;
+ }
+
+ .sub {
+  color: white;
+ }
+ .font {
+  font-family: helvetica
+ }
+
+ .yellow {
+color:#f4b942;
+ }
+
