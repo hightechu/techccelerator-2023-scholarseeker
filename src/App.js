@@ -20,21 +20,19 @@ function App() {
    <div className="container-fluid background font">
        <h1>Scholar Seeker</h1>
        <p>
-         Scholarships at your  <div className="sub"> fingertips
-         </div>
+         Scholarships at your  <div className="sub"> fingertips</div>
        </p>
-   <div id="Login">
+      <div id="Login">
    
- </div>
+       </div>
 
- <div class="d-grid gap-4 col-5 mx-auto">
+      <div class="d-grid gap-4 col-5 mx-auto">
   
-  <a href="/login" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Login</a>
-  <a href="/signup" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Signup</a>
-</div>
+        <a href="/login" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Login</a>
+        <a href="/signup" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Signup</a>
+      </div>
 
-</div>
-
+    </div>
   );
 }
  

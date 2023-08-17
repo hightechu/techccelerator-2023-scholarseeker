@@ -17,7 +17,7 @@ const Login = () => {
     if (res.error) seterror(res.error);
     navigate("/Home");
   };
-  return (
+  return (              
     <>
       <div className="container-fluid">
        
@@ -51,5 +51,34 @@ const Login = () => {
     </>
   );
 };
-
 export default Login;
+
+// <div className="container-fluid">
+//       <div class="d-grid gap-2 col-6 mx-auto">
+//   <button class="btn btn-primary" type="button">LOGIN</button>
+  
+// </div>
+//               <h1>LOGIN</h1>
+//               {error ? <div>{error}</div> : null}
+//               <form onSubmit={handleSubmit}>
+//                 <input
+//                   type="text"
+//                   name="email"
+//                   value={email}
+//                   placeholder="Email"
+//                   onChange={(e) => setEmail(e.target.value)}
+//                 />
+//                 <input
+//                   type="password"
+//                   name="password"
+//                   value={password}
+//                   placeholder="Password"
+//                   onChange={(e) => setPassword(e.target.value)}
+//                 />
+//                 <input type="LOGIN" value="LOGIN" />
+//               </form>
+//               <br>
+//               </br>
+            
+//                  <a href="/signup">Forgot Password?</a>
+              
