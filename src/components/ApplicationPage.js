@@ -1,16 +1,16 @@
 import React from 'react';
 
- const Anotherpage = () => {
+ const ApplicationPage = () => {
 
   return (
     <div className="container-fluid">        
-       <h1>Practice</h1>
+       <h1>Hello JMKsolutionz</h1>
         <p>
-          About your project.
+          idk what to do next
         </p>
     </div>
   )
 
 }
  
-export default Anotherpage
+export default ApplicationPage

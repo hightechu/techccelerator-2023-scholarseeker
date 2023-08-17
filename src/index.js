@@ -14,9 +14,9 @@ import Navigation from "./components/Navigation";
 import Practice from "./components/Practice";
 import App from './App';
 import AddDataSample from './components/AddDataSample';
-import Anotherpage from "./components/Anotherpage";
-
-import ScholarshipPage from './components/ScholarshipPage';
+import ScholarshipPage from "./components/ScholarshipPage";
+import SavedScholarshipPage from './components/SavedScholarshipPage';
+import ApplicationPage from "./components/ApplicationPage";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // Add routes after line 30
 root.render(
@@ -30,8 +30,9 @@ root.render(
             <Route path='/signup' element={<Signup/>}/>
             <Route path='/practice' element={<Practice/>}/>
             <Route path='/adddatasample' element={<AddDataSample/>}/>
-            <Route path='/anotherpage' element={<Anotherpage/>}/>
             <Route path= '/scholarshippage' element={<ScholarshipPage/>}/>
+            <Route path= '/savedscholarshippage' element={<SavedScholarshipPage/>}/>
+            <Route path='/applicationpage' element={<ApplicationPage/>}/>
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,
