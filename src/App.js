@@ -17,13 +17,12 @@ function App() {
  
   // HTML rendered here
   return (
-   <div className="container-fluid background">
+   <div className="container-fluid background font">
        <h1>Scholar Seeker</h1>
        <p>
-         Scholarships at your fingertips
+         Scholarships at your  <div className="sub"> fingertips
+         </div>
        </p>
-       
-   
    <div id="Login">
    
  </div>

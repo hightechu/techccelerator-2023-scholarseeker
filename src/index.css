@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+input {
+  display: block;
+  margin-top: 25px;
+}
 /* DEVELOPERS ADD CUSTOM CSS BELOW */
 
 .custom-class {
@@ -32,3 +36,8 @@ code {
  .font {
   font-family: helvetica
  }
+
+ .yellow {
+color:#f4b942;
+ }
+
