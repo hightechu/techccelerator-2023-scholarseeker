@@ -27,7 +27,7 @@ Please adhere to this project's [`code of conduct`](CODE_OF_CONDUCT.md).
 ## Useful Resources
 
 * [React Documentation](https://react.dev/reference/react)
-* [Firebase Documentation](https://firebase.google.com/docs?gad=1&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzPQ-Agmh5XfsQcmfi5jzcgb5lp9x1lHb9xjZqGsFUmLq4MXlq2CqYaAnlIEALw_wcB&gclsrc=aw.ds)
+* [Firebase Documentation](https://firebase.google.com/docs?gad=1&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzPQ-Agmh5XfsQcmfi5jzcgb5lp9x1lHb9xjZqGsFUmLq4MXlq2CqYaAnlIEALw_wcB& marcus gclsrc=aw.ds)
 
 ## License
 
