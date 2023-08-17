@@ -1,10 +1,10 @@
 import React from 'react';
 
- const About = () => {
+ const Practice = () => {
 
   return (
     <div className="container-fluid">        
-       <h1>About</h1>
+       <h1>Practice</h1>
         <p>
           About your project.
         </p>
@@ -13,4 +13,4 @@ import React from 'react';
 
 }
  
-export default About
+export default Practice
