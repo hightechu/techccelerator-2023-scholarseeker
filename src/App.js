@@ -20,10 +20,10 @@ function App() {
   return (
 
     <div className="container-fluid background font"> 
-    <img src={logo}alt="Scholarship Seekr Logo"
-    width="100"
-    height="100"
-    ></img>
+      <img src={logo}alt="Scholarship Seekr Logo"
+        width="100"
+        height="100"
+       ></img>
 
       <h1>Scholar Seeker</h1>
       <p>
@@ -40,9 +40,8 @@ function App() {
         <a href="/login" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Login</a>
         <a href="/signup" class="btn btn-primary" tabindex="1" role="button" aria-disabled="false">Signup</a>
       </div>
-</div>
+    </div>
   
-
   );
 }
  

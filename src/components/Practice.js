@@ -1,6 +1,6 @@
 import React from 'react';
 
- const About = () => {
+ const Practice = () => {
 
   return (
     <div className="container-fluid grad1">  
@@ -14,4 +14,4 @@ import React from 'react';
 
 }
  
-export default About
+export default Practice
