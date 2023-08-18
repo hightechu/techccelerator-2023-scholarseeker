@@ -19,30 +19,13 @@ const Signup = () => {
     <> 
 
       <div className="container-fluid grad1">
-        <h2>Scholarship Page</h2>
-        {error ? <div>{error}</div> : null}
-        <form onSubmit={handleSubmit}>
-          <input
-            type="email"
-            name="email"
-            value={email}
-            placeholder="Your Email"
-            required
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <input
-            type="password"
-            name="password"
-            value={password}
-            placeholder="Your Password"
-            required
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <button type="submit">Submit</button>
-        </form>
-        <p>
-          Already registered? <a href="/login">Login</a>
-        </p>
+        <h2>Scholarship Search Engine!</h2>
+
+        <form class="searchbutton">
+  <input type="text" placeholder="Search.." name="search2"></input><button type="submit"><i class="fa fa-search"></i></button>
+  
+</form>
+
       </div>
 
     </>
