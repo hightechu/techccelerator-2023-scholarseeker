@@ -19,13 +19,12 @@ const Signup = () => {
     <> 
 
       <div className="container-fluid grad1">
+       
         <h2>Scholarship Search Engine!</h2>
 
         <form class="searchbutton">
-  <input type="text" placeholder="Search.." name="search2"></input><button type="submit"><i class="fa fa-search"></i></button>
-  
-</form>
-
+          <input type="text" placeholder="Search.." name="search2"></input><button type="submit"><i class="fa fa-search"></i></button>
+        </form>
       </div>
 
     </>

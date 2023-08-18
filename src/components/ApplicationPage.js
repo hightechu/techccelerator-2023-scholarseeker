@@ -4,11 +4,14 @@ import React from 'react';
 
   return (
     <div className="container-fluid">        
-       <h1>Hello JMKsolutionz</h1>
+       <h1>Your Home Feed</h1>
         <p>
-          idk what to do next
+          Top Picks For You
         </p>
+        
+
     </div>
+
   )
 
 }
