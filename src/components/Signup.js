@@ -90,7 +90,7 @@ const Signup = () => {
 <p> </p>
 <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Gender
+        How do you identify?
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
