@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { signUp } from "firebase_setup/firebase";
-import { namedQuery } from "firebase/firestore";
+//import { namedQuery } from "firebase/firestore";
 import Dropdown from 'react-bootstrap/Dropdown';
 
 const DatePicker = () => {
