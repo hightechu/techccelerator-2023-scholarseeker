@@ -17,6 +17,7 @@ import AddDataSample from './components/AddDataSample';
 import ScholarshipPage from "./components/ScholarshipPage";
 import SavedScholarshipPage from './components/SavedScholarshipPage';
 import ApplicationPage from "./components/ApplicationPage";
+import CreateNewScholarship from "./components/CreateNewScholarship";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // Add routes after line 30
 root.render(
@@ -33,6 +34,7 @@ root.render(
             <Route path= '/scholarshippage' element={<ScholarshipPage/>}/>
             <Route path= '/savedscholarshippage' element={<SavedScholarshipPage/>}/>
             <Route path='/applicationpage' element={<ApplicationPage/>}/>
+            <Route path='/createnewscholarship' element={<CreateNewScholarship/>}/>
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,

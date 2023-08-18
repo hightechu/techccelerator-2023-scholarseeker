@@ -15,7 +15,7 @@ const Login = () => {
     setPassword("");
     const res = await signIn(email, password);
     if (res.error) seterror(res.error);
-    navigate("/Home");
+    navigate("/applicationpage");
   };
   return (              
     <>
@@ -25,7 +25,7 @@ const Login = () => {
               {error ? <div>{error}</div> : null}
               <form onSubmit={handleSubmit}>
                 <input
-                  type="text"
+                  type="email"
                   name="email"
                   value={email}
                   placeholder="Email"

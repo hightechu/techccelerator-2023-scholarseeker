@@ -19,7 +19,7 @@ const Signup = () => {
     <> 
 
       <div className="container-fluid grad1">
-        <h2>Scholarship Page</h2>
+        <h2>Scholarships</h2>
         {error ? <div>{error}</div> : null}
         <form onSubmit={handleSubmit}>
           <input
