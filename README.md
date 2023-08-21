@@ -1,11 +1,13 @@
-# HighTechU Techccelerator React App
+# Scholar Seeker
 
 ## About
 
 <!-- You will want to modify the text below to include a short description of your app -->
 <!-- You will want to modify the documentation link to your app's help page -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Posuere lorem ipsum dolor sit. Quis varius quam quisque id diam vel quam elementum pulvinar. Rhoncus dolor purus non enim praesent elementum facilisis leo. Accumsan lacus vel facilisis volutpat est velit egestas dui. For more information about the app visit the "[documentation](https://hightechu.ca)".
+JMK Solutions presents Scholar Seeker - a new app for Canadian high school students to find and apply for scholarships. 
+
+[View the prototype here](https://jmksolutionz.firebaseapp.com/) or [learn more about Scholar Seeker here](https://www.canva.com/design/DAFr1DH6BhE/sDrlAntdj-t9eCHPS3O-Mw/view?utm_content=DAFr1DH6BhE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 
 
 ## Technologies
@@ -38,3 +40,6 @@ The project uses the [MIT LICENSE](https://choosealicense.com/licenses/mit/).
 <!-- You will want modify the authors list below to include all contributing team members. -->
 
 - [@hightechu](https://github.com/hightechu)
+- Juliana
+- Kamau
+- Marcus
