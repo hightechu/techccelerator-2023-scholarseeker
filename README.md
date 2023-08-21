@@ -9,6 +9,7 @@ JMK Solutions presents Scholar Seeker - a new app for Canadian high school stude
 
 [View the prototype here](https://jmksolutionz.firebaseapp.com/) or [learn more about Scholar Seeker here](https://www.canva.com/design/DAFr1DH6BhE/sDrlAntdj-t9eCHPS3O-Mw/view?utm_content=DAFr1DH6BhE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 
+_Scholar Seeker is the winner of the Best Business award_
 
 ## Technologies
 
